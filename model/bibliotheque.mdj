@@ -1143,12 +1143,32 @@
 									"model": {
 										"$ref": "AAAAAAGhMAijYGhgDV4="
 									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGhMEyKI2kiGS4=",
+											"_parent": {
+												"$ref": "AAAAAAGhMAijYWholF4="
+											},
+											"model": {
+												"$ref": "AAAAAAGhMEyJ4mkfbdU="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 381,
+											"top": 462,
+											"width": 167,
+											"height": 13,
+											"text": "+dateEmprunt: Date",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 376,
 									"top": 457,
 									"width": 177,
-									"height": 10
+									"height": 23
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1162,7 +1182,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 376,
-									"top": 467,
+									"top": 480,
 									"width": 177,
 									"height": 10
 								},
@@ -1326,7 +1346,18 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Emprunt"
+					"name": "Emprunt",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGhMEyJ4mkfbdU=",
+							"_parent": {
+								"$ref": "AAAAAAGhMAijYGhgDV4="
+							},
+							"name": "dateEmprunt",
+							"type": "Date"
+						}
+					]
 				},
 				{
 					"_type": "UMLClassDiagram",
